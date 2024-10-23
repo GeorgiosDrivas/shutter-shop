@@ -1,0 +1,22 @@
+#header {
+  padding: 20px;
+  border-bottom: 1px solid #b8b8b8;
+}
+
+#logo {
+  height: 40px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+}
+
+.header-nav {
+  margin-left: 400px;
+  width: 400px;
+}
+
+li {
+  font-weight: bold;
+}
