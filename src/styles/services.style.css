@@ -1,10 +1,10 @@
-h2 {
+#services h2 {
   font-family: Jost, sans-serif;
   color: #302f2d;
   font-size: calc(3.5rem + 3vh);
 }
 
-p {
+#services p {
   font-size: 18px;
   line-height: 25px;
   margin-bottom: 20px;
@@ -24,7 +24,7 @@ p {
   border-right: 1px solid;
 }
 
-button {
+#services button {
   border: 1px solid;
   background-color: transparent;
   padding: 1rem 2rem;
