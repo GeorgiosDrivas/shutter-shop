@@ -1,0 +1,33 @@
+#hero-wrap {
+  margin-top: 70px;
+}
+
+p {
+  font-size: 22px;
+}
+
+h1 {
+  font-size: calc(3.5rem + 3vh);
+  line-height: 95px;
+}
+
+.button {
+  border: none;
+  color: #f6f4de;
+  background-color: #413f3e;
+  padding: 1rem 3rem;
+  text-transform: uppercase;
+}
+
+.hero-btns {
+  width: 30%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.button.tr-bg {
+  background-color: transparent;
+  color: #413f3e;
+  border: 1px solid #413f3e;
+}
