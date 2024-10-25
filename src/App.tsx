@@ -1,6 +1,7 @@
 import BestSellers from "./components/bestSellers/bestSellers";
 import Header from "./components/header";
 import Landing from "./components/landing/landing";
+import Services from "./components/services";
 import "./styles/app.css";
 
 export default function App() {
@@ -9,6 +10,7 @@ export default function App() {
       <Header />
       <Landing />
       <BestSellers />
+      <Services />
     </>
   );
 }
