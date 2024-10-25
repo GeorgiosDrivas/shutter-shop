@@ -1,0 +1,25 @@
+#values {
+  background-color: #161616;
+  color: #f6f4de;
+  padding: 130px;
+}
+
+#values h2 {
+  font-family: Jost, sans-serif;
+  font-size: calc(3.5rem + 3vh);
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+#values p {
+  font-size: 30px;
+  line-height: 40px;
+}
+
+#values button {
+  background-color: #f6f4de;
+  border: none;
+  text-transform: uppercase;
+  padding: 1rem 2rem;
+  color: #413f3e;
+}

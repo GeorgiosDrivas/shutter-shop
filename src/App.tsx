@@ -2,6 +2,7 @@ import BestSellers from "./components/bestSellers/bestSellers";
 import Header from "./components/header";
 import Landing from "./components/landing/landing";
 import Services from "./components/services";
+import Values from "./components/values";
 import "./styles/app.css";
 
 export default function App() {
@@ -11,6 +12,7 @@ export default function App() {
       <Landing />
       <BestSellers />
       <Services />
+      <Values />
     </>
   );
 }
