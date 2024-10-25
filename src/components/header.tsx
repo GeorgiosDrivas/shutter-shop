@@ -6,7 +6,7 @@ export default function Header() {
       <section id="header">
         <div className="container">
           <div className="row justify-content-center">
-            <div className="col-12">
+            <div className="col-12 p-0">
               <div
                 id="header-wrap"
                 className="d-flex justify-content-between align-items-center"

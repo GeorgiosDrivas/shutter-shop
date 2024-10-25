@@ -1,4 +1,4 @@
-import Hero from "./landing/hero";
+import Hero from "./hero";
 
 export default function Landing() {
   return (

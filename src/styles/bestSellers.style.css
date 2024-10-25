@@ -1,0 +1,61 @@
+.best-sellers {
+  padding: 100px 0;
+  background-color: #161616;
+  color: #f6f4de;
+  margin-top: 70px;
+}
+
+.best-sellers.top {
+  border-bottom: 1px solid;
+}
+
+.category {
+  font-family: Playfair Display, sans-serif;
+  font-size: 2.2rem;
+  line-height: 1.1em;
+}
+
+.best-seller h2 {
+  font-family: Jost, sans-serif;
+  font-size: calc(3.5rem + 3vh);
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.best-seller-item {
+  overflow: hidden;
+  border: 1px solid;
+  padding: 30px;
+  text-align: start;
+  cursor: pointer;
+  transition: al, 0.6s;
+}
+
+.best-seller-item:hover {
+  background-color: #ffffff1f;
+}
+
+.details {
+  margin-top: 20px;
+}
+
+.details p {
+  line-height: 27px;
+}
+
+.best-seller-img {
+  width: auto;
+  height: 550px;
+}
+
+.best-seller-img img {
+  object-fit: cover;
+}
+
+.more-products button {
+  background-color: #f6f4de;
+  border: none;
+  text-transform: uppercase;
+  padding: 1rem 2rem;
+  color: #413f3e;
+}

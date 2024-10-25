@@ -1,6 +1,10 @@
 #header {
   padding: 15px;
+  background-color: #f6f4de;
   border-bottom: 1px solid #b8b8b8;
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
 }
 
 #logo {

@@ -10,7 +10,9 @@ export default function Hero() {
               id="hero-wrap"
               className="d-flex flex-column justify-content-center align-items-center text-center"
             >
-              <p className="mb-3">We are ShutterShopX</p>
+              <p className="mb-3" id="moto">
+                We are ShutterShopX
+              </p>
               <h1 className="text-uppercase">
                 For All Things
                 <br /> Photography
