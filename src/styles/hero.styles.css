@@ -27,7 +27,13 @@ h1 {
 }
 
 .button.tr-bg {
+  padding: 1rem 2rem;
   background-color: transparent;
   color: #413f3e;
   border: 1px solid #413f3e;
+}
+
+#hero-img {
+  height: 700px;
+  margin-top: 60px;
 }

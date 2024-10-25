@@ -28,6 +28,15 @@ export default function Hero() {
               </div>
             </div>
           </div>
+          <div className="col-12">
+            <div id="hero-img">
+              <img
+                className="h-100 w-100 mb-5"
+                src="../../assets/hero_page.png"
+                alt=""
+              />
+            </div>
+          </div>
         </div>
       </div>
     </>
