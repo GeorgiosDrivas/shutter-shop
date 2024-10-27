@@ -2,6 +2,7 @@
   background-color: #161616;
   color: #f6f4de;
   padding: 130px;
+  padding-bottom: 250px;
 }
 
 #values h2 {
@@ -22,4 +23,24 @@
   text-transform: uppercase;
   padding: 1rem 2rem;
   color: #413f3e;
+}
+
+.values-small-img {
+  width: 280px;
+  height: 375px;
+}
+
+.left-top {
+  top: 200px;
+  left: -90px;
+}
+
+.left-bot {
+  bottom: -140px;
+  left: 100px;
+}
+
+.right-bot {
+  bottom: -80px;
+  right: 100px;
 }
