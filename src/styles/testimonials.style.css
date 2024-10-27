@@ -1,0 +1,21 @@
+#testimonials {
+  padding: 80px;
+}
+
+h2 {
+  color: #302f2d;
+}
+
+.numbers p:first-child {
+  color: #302f2d;
+  font-weight: 500;
+  font-size: 50px;
+}
+
+.numbers p:last-child {
+  font-size: 20px;
+}
+
+.testimonials-swiper {
+  border: 1px solid;
+}

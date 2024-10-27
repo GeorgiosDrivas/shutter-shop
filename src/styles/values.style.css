@@ -5,13 +5,6 @@
   padding-bottom: 250px;
 }
 
-#values h2 {
-  font-family: Jost, sans-serif;
-  font-size: calc(3.5rem + 3vh);
-  font-weight: 600;
-  text-transform: uppercase;
-}
-
 #values p {
   font-size: 30px;
   line-height: 40px;
