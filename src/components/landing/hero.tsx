@@ -34,7 +34,7 @@ export default function Hero() {
             <div id="hero-img">
               <img
                 className="h-100 w-100 mb-5"
-                src={`${import.meta.env.VITE_PUBLIC_URL}/assets/hero_page.png`}
+                src="/assets/hero_page.png"
                 alt=""
               />
             </div>

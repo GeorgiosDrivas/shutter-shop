@@ -18,9 +18,7 @@ export default function Lenses() {
               <div className="overflow-hidden best-seller-img position-relative">
                 <img
                   className="w-100 h-100 position-absolute"
-                  src={`${
-                    import.meta.env.VITE_PUBLIC_URL
-                  }/assets/lenses/lense_1.png`}
+                  src="/assets/lenses/lense_1.png"
                   alt="Camera 1"
                 />
               </div>
@@ -39,9 +37,7 @@ export default function Lenses() {
               <div className="overflow-hidden best-seller-img position-relative">
                 <img
                   className="w-100 h-100 position-absolute"
-                  src={`${
-                    import.meta.env.VITE_PUBLIC_URL
-                  }/assets/lenses/lense_2.png`}
+                  src="/assets/lenses/lense_2.png"
                   alt="Camera 2"
                 />
               </div>
@@ -60,9 +56,7 @@ export default function Lenses() {
               <div className="overflow-hidden best-seller-img position-relative">
                 <img
                   className="w-100 h-100 position-absolute"
-                  src={`${
-                    import.meta.env.VITE_PUBLIC_URL
-                  }/assets/lenses/lense_3.png`}
+                  src="/assets/lenses/lense_3.png"
                   alt="Camera 3"
                 />
               </div>

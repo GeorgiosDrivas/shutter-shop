@@ -18,9 +18,7 @@ export default function Cameras() {
               <div className="overflow-hidden best-seller-img position-relative">
                 <img
                   className="w-100 h-100 position-absolute"
-                  src={`${
-                    import.meta.env.VITE_PUBLIC_URL
-                  }/assets/cameras/camera_1.png`}
+                  src="/assets/cameras/camera_1.png"
                   alt="Camera 1"
                 />
               </div>
@@ -36,9 +34,7 @@ export default function Cameras() {
               <div className="overflow-hidden best-seller-img position-relative">
                 <img
                   className="w-100 h-100 position-absolute"
-                  src={`${
-                    import.meta.env.VITE_PUBLIC_URL
-                  }/assets/cameras/camera_2.png`}
+                  src="/assets/cameras/camera_2.png"
                   alt="Camera 2"
                 />
               </div>
@@ -56,9 +52,7 @@ export default function Cameras() {
               <div className="overflow-hidden best-seller-img position-relative">
                 <img
                   className="w-100 h-100 position-absolute"
-                  src={`${
-                    import.meta.env.VITE_PUBLIC_URL
-                  }/assets/cameras/camera_3.png`}
+                  src="/assets/cameras/camera_3.png"
                   alt="Camera 3"
                 />
               </div>

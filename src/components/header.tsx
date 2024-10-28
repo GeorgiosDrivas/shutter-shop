@@ -11,13 +11,7 @@ export default function Header() {
                 id="header-wrap"
                 className="d-flex justify-content-between align-items-center"
               >
-                <img
-                  id="logo"
-                  src={`${
-                    import.meta.env.VITE_PUBLIC_URL
-                  }/assets/shutter-shop-logo.svg`}
-                  alt=""
-                />
+                <img id="logo" src="/assets/shutter-shop-logo.svg" alt="" />
                 <div className="d-flex justify-content-center">
                   <ul className="d-flex justify-content-between align-items-center p-0">
                     <li>Shop</li>
