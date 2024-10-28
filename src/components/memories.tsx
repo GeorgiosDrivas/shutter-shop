@@ -5,14 +5,18 @@ export default function Memories() {
     <>
       <section id="memories">
         <div className="container">
-          <div className="row">
+          <div className="row justify-content-center align-items-center">
             <div className="col-6">
               <div className="memories-img">
-                <img src="../../assets/memories_img.png" alt="Memories Image" />
+                <img
+                  className="h-100 w-100"
+                  src="../../assets/memories_img.png"
+                  alt="Memories Image"
+                />
               </div>
             </div>
             <div className="col-6">
-              <div className="memories-content ps-5">
+              <div className="memories-content">
                 <h2>Create Memories That Last a Lifetime</h2>
                 <div className="memories-single-service">
                   <p>Print Your Photos</p>
