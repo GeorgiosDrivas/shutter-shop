@@ -75,11 +75,11 @@ img {
 
 .testimonials-swiper p {
   text-align: center;
+  color: #302f2d;
   font-family: Playfair Display, sans-serif;
   font-style: italic;
   font-weight: 400;
-  line-height: 1.3em;
   font-size: 3em;
-  margin-left: 20px;
+  margin-left: 40px;
   line-height: 1em;
 }

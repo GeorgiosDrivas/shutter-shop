@@ -33,8 +33,8 @@ export default function Testimonials() {
                     <div className="d-flex justify-content-center align-items-center">
                       <img src="../../assets/testimonial_img.png" alt="" />
                       <p>
-                        "Incredible service and product quality! I found
-                        everything I needed for my photography business."
+                        Incredible service and product quality! I found
+                        everything I needed for my photography business.
                       </p>
                     </div>
                   </SwiperSlide>
@@ -60,7 +60,7 @@ export default function Testimonials() {
               </div>
             </div>
           </div>
-          <div className="row">
+          <div className="row mt-4">
             <div className="col-4">
               <div className="numbers text-center">
                 <p className="mb-0">600+</p>
