@@ -31,7 +31,12 @@ export default function Testimonials() {
                 >
                   <SwiperSlide>
                     <div className="d-flex justify-content-center align-items-center">
-                      <img src="../../assets/testimonial_img.png" alt="" />
+                      <img
+                        src={`${
+                          import.meta.env.VITE_PUBLIC_URL
+                        }/assets/testimonial_img.png`}
+                        alt=""
+                      />
                       <p>
                         Incredible service and product quality! I found
                         everything I needed for my photography business.
@@ -40,7 +45,12 @@ export default function Testimonials() {
                   </SwiperSlide>
                   <SwiperSlide>
                     <div className="d-flex justify-content-center align-items-center">
-                      <img src="../../assets/testimonial_img.png" alt="" />
+                      <img
+                        src={`${
+                          import.meta.env.VITE_PUBLIC_URL
+                        }/assets/testimonial_img.png`}
+                        alt=""
+                      />
                       <p>
                         "The team was so helpful in guiding me to the perfect
                         camera. Highly recommend!"
@@ -49,7 +59,12 @@ export default function Testimonials() {
                   </SwiperSlide>
                   <SwiperSlide>
                     <div className="d-flex justify-content-center align-items-center">
-                      <img src="../../assets/testimonial_img.png" alt="" />
+                      <img
+                        src={`${
+                          import.meta.env.VITE_PUBLIC_URL
+                        }/assets/testimonial_img.png`}
+                        alt=""
+                      />
                       <p>
                         "Their workshops are fantastic! I've improved my
                         photography skills significantly."

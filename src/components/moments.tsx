@@ -19,7 +19,9 @@ export default function Moments() {
                 <button className="text-uppercase">Discover More</button>
                 <div className="position-absolute moments-img">
                   <img
-                    src="../../assets/moments_img.png"
+                    src={`${
+                      import.meta.env.VITE_PUBLIC_URL
+                    }/assets/moments_img.png`}
                     alt=""
                     className="w-100 h-100"
                   />

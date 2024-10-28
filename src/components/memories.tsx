@@ -10,7 +10,9 @@ export default function Memories() {
               <div className="memories-img">
                 <img
                   className="h-100 w-100"
-                  src="../../assets/memories_img.png"
+                  src={`${
+                    import.meta.env.VITE_PUBLIC_URL
+                  }/assets/memories_img.png`}
                   alt="Memories Image"
                 />
               </div>
