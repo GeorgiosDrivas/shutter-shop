@@ -37,3 +37,8 @@
   bottom: -80px;
   right: 100px;
 }
+
+.right-top {
+  right: -90px;
+  top: 60px;
+}
