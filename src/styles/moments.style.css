@@ -1,0 +1,10 @@
+#moments {
+  color: #f6f4de;
+  padding: 100px 0;
+}
+
+.moments-wrap {
+  background: url("../../assets/moments_img.png");
+  height: 350px;
+  width: 100%;
+}

@@ -5,6 +5,7 @@ import Memories from "./components/memories";
 import Services from "./components/services";
 import Testimonials from "./components/testimonials";
 import Values from "./components/values";
+import Moments from "./components/moments";
 import "./styles/app.css";
 
 export default function App() {
@@ -17,6 +18,7 @@ export default function App() {
       <Values />
       <Testimonials />
       <Memories />
+      <Moments />
     </>
   );
 }
