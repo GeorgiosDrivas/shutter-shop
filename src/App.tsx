@@ -3,7 +3,7 @@ import Header from "./components/header";
 import Landing from "./components/landing/landing";
 import Memories from "./components/memories";
 import Services from "./components/services";
-import Testimonials from "./components/testimonials";
+import Testimonials from "./components/testimonials/testimonials";
 import Values from "./components/values";
 import Moments from "./components/moments";
 import "./styles/app.css";
