@@ -26,33 +26,33 @@ export default function Values() {
           <div className="row">
             <div className="col-12">
               <div className="values-wrap d-flex justify-content-center position-relative">
-                <img src="/assets/values_center.png" alt="" />
+                <img src="/assets/values_center.png" alt="Values Image 1" />
                 <div className="values-small-img left-top position-absolute">
                   <img
                     className="w-100 h-100"
                     src="/assets/values_left_top.png"
-                    alt=""
+                    alt="Values Image 2"
                   />
                 </div>
                 <div className="values-small-img right-top position-absolute">
                   <img
                     className="w-100 h-100"
                     src="/assets/values_right_top.png"
-                    alt=""
+                    alt="Values Image 3"
                   />
                 </div>
                 <div className="values-small-img left-bot position-absolute">
                   <img
                     className="w-100 h-100"
                     src="/assets/values_left_bot.png"
-                    alt=""
+                    alt="Values Image 4"
                   />
                 </div>
                 <div className="values-small-img right-bot position-absolute">
                   <img
                     className="w-100 h-100"
                     src="/assets/values_right_bot.png"
-                    alt=""
+                    alt="Values Image 5"
                   />
                 </div>
               </div>

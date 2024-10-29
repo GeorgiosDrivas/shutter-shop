@@ -35,7 +35,7 @@ export default function Hero() {
               <img
                 className="h-100 w-100 mb-5"
                 src="/assets/hero_page.png"
-                alt=""
+                alt="Hero Image"
               />
             </div>
           </div>

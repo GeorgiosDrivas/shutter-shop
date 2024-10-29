@@ -19,7 +19,7 @@ export default function Lenses() {
                 <img
                   className="w-100 h-100 position-absolute"
                   src="/assets/lenses/lense_1.png"
-                  alt="Camera 1"
+                  alt="Lense 1"
                 />
               </div>
               <div className="details">
@@ -38,7 +38,7 @@ export default function Lenses() {
                 <img
                   className="w-100 h-100 position-absolute"
                   src="/assets/lenses/lense_2.png"
-                  alt="Camera 2"
+                  alt="Lense 2"
                 />
               </div>
               <div className="details">
@@ -57,7 +57,7 @@ export default function Lenses() {
                 <img
                   className="w-100 h-100 position-absolute"
                   src="/assets/lenses/lense_3.png"
-                  alt="Camera 3"
+                  alt="Lense 3"
                 />
               </div>
               <div className="details">

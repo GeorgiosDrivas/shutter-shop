@@ -20,7 +20,7 @@ export default function Moments() {
                 <div className="position-absolute moments-img">
                   <img
                     src="/assets/moments_img.png"
-                    alt=""
+                    alt="Moments Image"
                     className="w-100 h-100"
                   />
                 </div>
