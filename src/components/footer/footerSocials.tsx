@@ -3,7 +3,7 @@ export default function FooterSocials() {
     <>
       <div className="socials">
         <p>Follow us</p>
-        <button>
+        <button aria-label="Linkedin">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="24"
@@ -17,7 +17,7 @@ export default function FooterSocials() {
             />
           </svg>
         </button>
-        <button>
+        <button aria-label="X">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="24"
@@ -31,7 +31,7 @@ export default function FooterSocials() {
             />
           </svg>
         </button>
-        <button>
+        <button aria-label="Instagram">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="24"
@@ -45,7 +45,7 @@ export default function FooterSocials() {
             />
           </svg>
         </button>
-        <button>
+        <button aria-label="Youtube">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="24"
@@ -59,7 +59,7 @@ export default function FooterSocials() {
             />
           </svg>
         </button>
-        <button>
+        <button aria-label="Facebook">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="24"
