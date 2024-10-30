@@ -25,7 +25,9 @@ export default function Header() {
                     <li>Services</li>
                     <li>About</li>
                     <li>Blog</li>
-                    <li>Contact</li>
+                    <li>
+                      <Link to="/contact">Contact</Link>
+                    </li>
                   </ul>
                   <div>
                     <button id="cart" className="text-uppercase">
