@@ -32,3 +32,24 @@ li {
   background-color: #413f3e;
   padding: 1rem 3rem;
 }
+
+.main-nav li {
+  position: relative;
+  cursor: pointer;
+}
+
+.main-nav li:after {
+  content: "";
+  position: absolute;
+  bottom: -31px;
+  left: 0;
+  height: 2px;
+  width: 100%;
+  background-color: #413f3e;
+  opacity: 0;
+  transition: all, 0.3s;
+}
+
+.main-nav li:hover:after {
+  opacity: 1;
+}

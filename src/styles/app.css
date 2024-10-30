@@ -11,3 +11,12 @@ h2 {
   text-transform: uppercase;
   color: #f6f4de;
 }
+
+a {
+  color: #49494b;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #49494b;
+}

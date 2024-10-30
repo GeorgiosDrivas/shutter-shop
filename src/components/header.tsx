@@ -20,7 +20,7 @@ export default function Header() {
                   />
                 </Link>
                 <div className="d-flex justify-content-center">
-                  <ul className="d-flex justify-content-between align-items-center p-0">
+                  <ul className="d-flex justify-content-between align-items-center p-0 main-nav">
                     <li>Shop</li>
                     <li>Services</li>
                     <li>About</li>
