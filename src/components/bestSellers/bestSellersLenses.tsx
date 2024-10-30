@@ -14,7 +14,7 @@ export default function Lenses() {
         </div>
         <div className="row">
           <div className="col-4">
-            <div className="best-seller-item">
+            <div className="best-seller-item lenses">
               <div className="overflow-hidden best-seller-img position-relative">
                 <img
                   className="w-100 h-100 position-absolute"
@@ -33,7 +33,7 @@ export default function Lenses() {
             </div>
           </div>
           <div className="col-4">
-            <div className="best-seller-item">
+            <div className="best-seller-item lenses">
               <div className="overflow-hidden best-seller-img position-relative">
                 <img
                   className="w-100 h-100 position-absolute"
@@ -52,7 +52,7 @@ export default function Lenses() {
             </div>
           </div>
           <div className="col-4">
-            <div className="best-seller-item">
+            <div className="best-seller-item lenses">
               <div className="overflow-hidden best-seller-img position-relative">
                 <img
                   className="w-100 h-100 position-absolute"

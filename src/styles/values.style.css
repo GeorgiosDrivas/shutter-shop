@@ -92,3 +92,22 @@
     width: 200px;
   }
 }
+
+@media only screen and (max-width: 991px) {
+  .details p {
+    font-size: 18px;
+  }
+
+  .best-seller-item.lenses .details h3 {
+    font-size: 1.35rem;
+    height: 70px;
+  }
+
+  .best-seller-img {
+    height: 270px;
+  }
+
+  .best-seller-item {
+    padding: 15px;
+  }
+}

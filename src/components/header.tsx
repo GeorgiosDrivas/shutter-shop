@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "../styles/header.style.css";
 
 export default function Header() {
@@ -11,7 +12,13 @@ export default function Header() {
                 id="header-wrap"
                 className="d-flex justify-content-between align-items-center"
               >
-                <img id="logo" src="/assets/shutter-shop-logo.svg" alt="Logo" />
+                <Link to="/">
+                  <img
+                    id="logo"
+                    src="/assets/shutter-shop-logo.svg"
+                    alt="Logo"
+                  />
+                </Link>
                 <div className="d-flex justify-content-center">
                   <ul className="d-flex justify-content-between align-items-center p-0">
                     <li>Shop</li>

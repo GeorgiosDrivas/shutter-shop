@@ -13,7 +13,7 @@ export default function Services() {
             </div>
           </div>
           <div className="row justify-content-center">
-            <div className="col-4 p-0">
+            <div className="col-12 col-lg-4 p-0">
               <div className="single-service text-center">
                 <h3>Camera Repair</h3>
                 <p>
@@ -23,7 +23,7 @@ export default function Services() {
                 <button className="text-uppercase">Learn More</button>
               </div>
             </div>
-            <div className="col-4 p-0">
+            <div className="col-12 col-lg-4 p-0">
               <div className="single-service text-center">
                 <h3>Film Development</h3>
                 <p>
@@ -33,7 +33,7 @@ export default function Services() {
                 <button className="text-uppercase">Learn More</button>
               </div>
             </div>
-            <div className="col-4 p-0">
+            <div className="col-12 col-lg-4 p-0">
               <div className="single-service last text-center">
                 <h3>Photography Workshops</h3>
                 <p>
