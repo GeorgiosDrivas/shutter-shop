@@ -58,3 +58,17 @@
     font-size: 1.55rem;
   }
 }
+
+@media only screen and (max-width: 1199px) {
+  .best-seller-img {
+    height: 400px;
+  }
+
+  .details h3 {
+    font-size: 1.25rem;
+  }
+
+  .details p:first-child {
+    font-size: 18px;
+  }
+}

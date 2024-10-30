@@ -82,3 +82,18 @@
     width: 100%;
   }
 }
+
+@media only screen and (max-width: 1199px) {
+  #footer input {
+    width: 250px;
+  }
+
+  .newsletter-content {
+    padding-left: 50px;
+  }
+
+  .socials button {
+    width: 45px;
+    height: 45px;
+  }
+}
