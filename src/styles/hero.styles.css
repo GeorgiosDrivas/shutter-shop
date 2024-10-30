@@ -45,3 +45,9 @@ h1 {
   height: 700px;
   margin-top: 60px;
 }
+
+@media only screen and (max-width: 1399px) {
+  .hero-btns {
+    width: 35%;
+  }
+}

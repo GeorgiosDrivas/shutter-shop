@@ -52,3 +52,9 @@
   padding: 1rem 2rem;
   color: #413f3e;
 }
+
+@media only screen and (max-width: 1399px) {
+  .details h3 {
+    font-size: 1.55rem;
+  }
+}

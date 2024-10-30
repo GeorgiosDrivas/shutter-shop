@@ -42,3 +42,35 @@
   right: -90px;
   top: 60px;
 }
+
+@media only screen and (max-width: 1399px) {
+  #values img {
+    width: auto;
+    height: 670px;
+  }
+
+  .values-small-img {
+    width: 232px;
+    height: 322px;
+  }
+
+  .right-top {
+    right: 30px;
+    top: 9px;
+  }
+
+  .left-top {
+    top: 62px;
+    left: 32px;
+  }
+
+  .right-bot {
+    bottom: -183px;
+    right: 100px;
+  }
+
+  .left-bot {
+    bottom: -225px;
+    left: 149px;
+  }
+}

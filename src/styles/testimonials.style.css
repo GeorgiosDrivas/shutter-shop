@@ -83,3 +83,13 @@ img {
   margin-left: 40px;
   line-height: 1em;
 }
+
+@media only screen and (max-width: 1399px) {
+  .swiper-pagination-fraction,
+  .swiper-pagination-custom,
+  .swiper-horizontal > .swiper-pagination-bullets,
+  .swiper-pagination-bullets.swiper-pagination-horizontal {
+    bottom: 35px !important;
+    left: -40px !important;
+  }
+}
