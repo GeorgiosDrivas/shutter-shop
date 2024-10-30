@@ -1,3 +1,76 @@
 #contact {
-  padding: 130px 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding-top: 12.5rem;
+  padding-bottom: 5rem;
+  display: flex;
+}
+
+#contact h1 {
+  font-size: 3.5rem;
+  font-weight: 500;
+  line-height: 1.15em;
+}
+
+#contact label {
+  display: block;
+}
+
+#contact input,
+#contact textarea {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid;
+  padding: 10px 0;
+  margin-bottom: 30px;
+}
+
+.firstNameField,
+.lastNameField {
+  width: 50%;
+}
+
+#firstName,
+#lastName {
+  width: 100%;
+}
+
+.contact-form-full input {
+  width: 100%;
+}
+
+#contact textarea {
+  min-height: 11.25rem;
+  width: 100%;
+}
+
+#contact button {
+  background-color: #413f3e;
+  color: #f6f4de;
+  text-transform: uppercase;
+  border: 1.5px solid #0000;
+  min-width: 8.25rem;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5em;
+}
+
+.contact-form {
+  padding-top: 90px;
+}
+
+.contact-details p {
+  font-size: 17px;
+  padding-left: 15px;
+  margin: 0;
+}
+
+.contact-details div {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
 }
