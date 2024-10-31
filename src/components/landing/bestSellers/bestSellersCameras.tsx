@@ -1,6 +1,6 @@
-import "../../styles/bestSellers.style.css";
+import "../styles/bestSellers.style.css";
 
-export default function Lenses() {
+export default function Cameras() {
   return (
     <>
       <div className="container p-0">
@@ -8,65 +8,58 @@ export default function Lenses() {
           <div className="col-12">
             <div className="best-seller best-seller-lenses-title text-center">
               <p className="category">Best Sellers</p>
-              <h2>Lenses</h2>
+              <h2>Cameras</h2>
             </div>
           </div>
         </div>
         <div className="row">
           <div className="col-4">
-            <div className="best-seller-item lenses">
+            <div className="best-seller-item">
               <div className="overflow-hidden best-seller-img position-relative">
                 <img
                   className="w-100 h-100 position-absolute"
-                  src="/assets/lenses/lense_1.png"
-                  alt="Lense 1"
+                  src="/assets/cameras/camera_1.png"
+                  alt="Camera 1"
                 />
               </div>
               <div className="details">
-                <h3>RetroFlex Vintage 50mm f/1.8 Prime Lens</h3>
-                <p>
-                  A classic 50mm prime lens offering timeless image quality with
-                  a nostalgic touch.
-                </p>
-                <p className="m-0">$ 299.00 USD</p>
+                <h3>Canon NAS</h3>
+                <p>High-resolution camera for stunning image quality.</p>
+                <p className="m-0">$ 300.00 USD</p>
               </div>
             </div>
           </div>
           <div className="col-4">
-            <div className="best-seller-item lenses">
+            <div className="best-seller-item">
               <div className="overflow-hidden best-seller-img position-relative">
                 <img
                   className="w-100 h-100 position-absolute"
-                  src="/assets/lenses/lense_2.png"
-                  alt="Lense 2"
+                  src="/assets/cameras/camera_2.png"
+                  alt="Camera 2"
                 />
               </div>
               <div className="details">
-                <h3>OldeView Classic 135mm f/2.8 Telephoto Lens</h3>
+                <h3>Nikon A9</h3>
                 <p>
-                  A vintage telephoto lens renowned for its smooth focus and
-                  distinctive character.
+                  Exceptional performance and versatility for professionals.
                 </p>
-                <p className="m-0">$ 349.00 USD</p>
+                <p className="m-0">$ 999.00 USD</p>
               </div>
             </div>
           </div>
           <div className="col-4">
-            <div className="best-seller-item lenses">
+            <div className="best-seller-item">
               <div className="overflow-hidden best-seller-img position-relative">
                 <img
                   className="w-100 h-100 position-absolute"
-                  src="/assets/lenses/lense_3.png"
-                  alt="Lense 3"
+                  src="/assets/cameras/camera_3.png"
+                  alt="Camera 3"
                 />
               </div>
               <div className="details">
-                <h3>Canon EF 50mm f/1.8 STM Lens</h3>
-                <p>
-                  A compact and versatile prime lens ideal for portraits and
-                  low-light photography.
-                </p>
-                <p className="m-0">$ 125.00 USD</p>
+                <h3>Sony FE 24</h3>
+                <p>Premium lens for sharp images and beautiful bokeh.</p>
+                <p className="m-0">$ 450.00 USD</p>
               </div>
             </div>
           </div>
@@ -74,7 +67,7 @@ export default function Lenses() {
         <div className="row">
           <div className="col-12">
             <div className="more-products text-center mt-4">
-              <button className="">View all Lenses</button>
+              <button className="">View all Cameras</button>
             </div>
           </div>
         </div>

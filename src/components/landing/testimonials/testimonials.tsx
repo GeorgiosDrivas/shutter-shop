@@ -1,4 +1,4 @@
-import "../../styles/testimonials.style.css";
+import "../styles/testimonials.style.css";
 import "swiper/swiper-bundle.css";
 
 import { Navigation, Pagination, Scrollbar, A11y } from "swiper/modules";
