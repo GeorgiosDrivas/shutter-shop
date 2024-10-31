@@ -14,10 +14,6 @@
   line-height: 1.15em;
 }
 
-#contact label {
-  display: block;
-}
-
 #contact input,
 #contact textarea {
   background-color: transparent;

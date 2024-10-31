@@ -81,7 +81,9 @@ export default function Contact() {
                 <form>
                   <div className="d-flex">
                     <div className="firstNameField pe-4">
-                      <label htmlFor="firstName">First Name *</label>
+                      <label htmlFor="firstName" className="d-block">
+                        First Name *
+                      </label>
                       <input
                         type="text"
                         id="firstName"
@@ -89,7 +91,9 @@ export default function Contact() {
                       />
                     </div>
                     <div className="lastNameField">
-                      <label htmlFor="lastName">Last Name *</label>
+                      <label htmlFor="lastName" className="d-block">
+                        Last Name *
+                      </label>
                       <input
                         type="text"
                         id="lastName"
@@ -99,7 +103,9 @@ export default function Contact() {
                   </div>
                   <div className="contact-form-full">
                     <div>
-                      <label htmlFor="email">Email Address *</label>
+                      <label htmlFor="email" className="d-block">
+                        Email Address *
+                      </label>
                       <input
                         type="text"
                         id="email"
@@ -107,11 +113,15 @@ export default function Contact() {
                       />
                     </div>
                     <div>
-                      <label htmlFor="subject">Subject *</label>
+                      <label htmlFor="subject" className="d-block">
+                        Subject *
+                      </label>
                       <input type="text" id="subject" placeholder="Subject" />
                     </div>
                     <div>
-                      <label htmlFor="message">Message *</label>
+                      <label htmlFor="message" className="d-block">
+                        Message *
+                      </label>
                       <textarea id="message" placeholder="Message" />
                     </div>
                   </div>

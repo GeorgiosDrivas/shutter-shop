@@ -13,7 +13,6 @@
 
 ul {
   list-style-type: none;
-  margin: 0;
 }
 
 .header-nav {
@@ -22,7 +21,6 @@ ul {
 }
 
 li {
-  font-weight: bold;
   margin-right: 50px;
 }
 
@@ -31,11 +29,6 @@ li {
   color: #f6f4de;
   background-color: #413f3e;
   padding: 1rem 3rem;
-}
-
-.main-nav li {
-  position: relative;
-  cursor: pointer;
 }
 
 .main-nav li:after {

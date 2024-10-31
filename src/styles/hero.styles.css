@@ -19,19 +19,15 @@ h1 {
   color: #302f2d;
 }
 
-.button {
+#hero .button {
   border: none;
   color: #f6f4de;
   background-color: #413f3e;
   padding: 1rem 3rem;
-  text-transform: uppercase;
 }
 
 .hero-btns {
   width: 30%;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
 }
 
 .button.tr-bg {
