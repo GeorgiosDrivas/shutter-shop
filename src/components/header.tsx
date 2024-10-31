@@ -28,7 +28,7 @@ export default function Header() {
                       Services
                     </li>
                     <li className="fw-bold position-relative cursor-pointer">
-                      About
+                      <Link to="/about">About</Link>
                     </li>
                     <li className="fw-bold position-relative cursor-pointer">
                       Blog

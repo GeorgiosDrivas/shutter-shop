@@ -1,0 +1,17 @@
+#about {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding-top: 9.5rem;
+  padding-bottom: 5rem;
+  display: flex;
+}
+
+#about h2 {
+  font-size: 3.5rem;
+  font-weight: 500;
+  line-height: 1.15em;
+  color: #302f2d;
+  text-transform: none;
+}
