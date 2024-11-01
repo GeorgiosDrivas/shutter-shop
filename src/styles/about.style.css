@@ -32,3 +32,30 @@
   padding: 100px 0;
   background-color: #ebe9d2;
 }
+
+#who-we-are {
+  padding: 100px 0;
+}
+
+#who-we-are h2 {
+  color: #302f2d;
+}
+
+.single-person {
+  height: 400px;
+}
+
+.single-person img {
+  object-fit: cover;
+}
+
+.single-person-details {
+  bottom: 0;
+  height: 80px;
+  color: #f6f4de;
+  background-image: linear-gradient(180deg, #3e3f4100, #302f2d);
+}
+
+.single-person-details p:last-child {
+  font-size: 0.875rem;
+}

@@ -59,6 +59,60 @@ export default function About() {
           </div>
         </div>
       </section>
+      <section id="who-we-are">
+        <div className="container">
+          <div className="row align-items-top mb-5">
+            <div className="col-6">
+              <h2>Who we are</h2>
+            </div>
+            <div className="col-6">
+              <p>Meet the talented individuals behind our business.</p>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-3">
+              <div className="single-person position-relative">
+                <img
+                  className="w-100 h-100"
+                  src="/assets/person1.png"
+                  alt="Single Person Image"
+                />
+                <div className="single-person-details position-absolute w-100 ps-4">
+                  <p className="m-0">John Smith</p>
+                  <p className="m-0">Founder & CEO</p>
+                </div>
+              </div>
+            </div>
+            <div className="col-3">
+              <div className="single-person position-relative">
+                <img className="w-100 h-100" src="/assets/person2.png" alt="" />
+                <div className="single-person-details position-absolute w-100 ps-4">
+                  <p className="m-0">Kendrica Johnson</p>
+                  <p className="m-0">Camera Technician</p>
+                </div>
+              </div>
+            </div>
+            <div className="col-3">
+              <div className="single-person position-relative">
+                <img className="w-100 h-100" src="/assets/person3.png" alt="" />
+                <div className="single-person-details position-absolute w-100 ps-4">
+                  <p className="m-0">Mathew Douglas</p>
+                  <p className="m-0">Chief Operating Officer</p>
+                </div>
+              </div>
+            </div>
+            <div className="col-3">
+              <div className="single-person position-relative">
+                <img className="w-100 h-100" src="/assets/person4.png" alt="" />
+                <div className="single-person-details position-absolute w-100 ps-4">
+                  <p className="m-0">Kristen Borman</p>
+                  <p className="m-0">Head of Marketing</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </>
   );
 }
