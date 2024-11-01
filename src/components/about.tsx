@@ -113,6 +113,43 @@ export default function About() {
           </div>
         </div>
       </section>
+      <section id="connect">
+        <div className="container">
+          <div className="row">
+            <div className="col-10">
+              <div className="title">
+                <p className="text-uppercase">Reach out to Camerax</p>
+                <h3 className="text-uppercase mb-4">Connect with us</h3>
+                <p>Our dedicated team is here to assist you.</p>
+              </div>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-6">
+              <div className="connect-details">
+                <div className="connect-detail">
+                  <h5 className="m-0">Email Us</h5>
+                  <p className="m-0">We're ready to answer your questions.</p>
+                  <a href="#">support@email.com</a>
+                </div>
+                <div className="connect-detail">
+                  <h5 className="m-0">Call Us</h5>
+                  <p className="m-0">Available Mon - Fri, 8am - 5pm.</p>
+                  <a href="#">+1 (555) 123-4567</a>
+                </div>
+                <div className="connect-detail">
+                  <h5 className="m-0">Visit Us</h5>
+                  <p className="m-0">Stop by our office for a chat.</p>
+                  <a href="#">123 Photo Street, SF, CA</a>
+                </div>
+              </div>
+            </div>
+            <div className="col-6">
+              <div className="connect-map"></div>
+            </div>
+          </div>
+        </div>
+      </section>
     </>
   );
 }

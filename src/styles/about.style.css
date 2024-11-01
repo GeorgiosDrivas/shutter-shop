@@ -59,3 +59,27 @@
 .single-person-details p:last-child {
   font-size: 0.875rem;
 }
+
+#connect h3 {
+  font-family: Jost, sans-serif;
+  font-size: calc(3.5rem + 3vh);
+  font-weight: 600;
+  line-height: 1.15em;
+  color: #302f2d;
+}
+
+.connect-detail p {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.connect-detail h5 {
+  color: #302f2d;
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1.4em;
+}
+
+.connect-detail {
+  margin-bottom: 40px;
+}
