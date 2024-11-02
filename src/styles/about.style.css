@@ -77,3 +77,8 @@
 .connect-detail {
   margin-bottom: 40px;
 }
+
+.connect-detail svg {
+  width: 3rem;
+  height: 3rem;
+}

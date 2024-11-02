@@ -112,7 +112,9 @@ export default function About() {
               <div className="title">
                 <p className="text-uppercase">Reach out to Camerax</p>
                 <h3 className="text-uppercase mb-4">Connect with us</h3>
-                <p>Our dedicated team is here to assist you.</p>
+                <p className="mb-5">
+                  Our dedicated team is here to assist you.
+                </p>
               </div>
             </div>
           </div>
@@ -120,16 +122,71 @@ export default function About() {
             <div className="col-6">
               <div className="connect-details">
                 <div className="connect-detail">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                  >
+                    <path
+                      d="M5.25 6.75H18.75V17.25H5.25V6.75Z"
+                      stroke="black"
+                      stroke-width="1.5"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M5.25 6.75L12 12L18.75 6.75"
+                      stroke="black"
+                      stroke-width="1.5"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
                   <h5 className="m-0">Email Us</h5>
                   <p className="m-0">We're ready to answer your questions.</p>
                   <a href="#">support@email.com</a>
                 </div>
                 <div className="connect-detail">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                  >
+                    <path
+                      d="M12.5 18.25C16.2279 18.25 19.25 15.2279 19.25 11.5C19.25 7.77208 16.2279 4.75 12.5 4.75C8.77208 4.75 5.75 7.77208 5.75 11.5C5.75 12.6007 6.01345 13.6398 6.48072 14.5578L5 19L9.71819 17.6519C10.5664 18.0361 11.5082 18.25 12.5 18.25Z"
+                      stroke="black"
+                      stroke-width="1.5"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
                   <h5 className="m-0">Call Us</h5>
                   <p className="m-0">Available Mon - Fri, 8am - 5pm.</p>
                   <a href="#">+1 (555) 123-4567</a>
                 </div>
                 <div className="connect-detail">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                  >
+                    <path
+                      d="M16.3918 14.8527C20.2489 10.9956 17.2769 4.25 12 4.25C6.72299 4.25 3.75102 10.9956 7.60817 14.8527L12 19.25L16.3918 14.8527Z"
+                      stroke="black"
+                      stroke-width="1.5"
+                      stroke-linejoin="round"
+                    />
+                    <circle
+                      cx="12"
+                      cy="10.25"
+                      r="2"
+                      stroke="black"
+                      stroke-width="1.5"
+                    />
+                  </svg>
                   <h5 className="m-0">Visit Us</h5>
                   <p className="m-0">Stop by our office for a chat.</p>
                   <a href="#">123 Photo Street, SF, CA</a>
@@ -137,7 +194,13 @@ export default function About() {
               </div>
             </div>
             <div className="col-6">
-              <div className="connect-map"></div>
+              <div className="connect-map">
+                <img
+                  className="w-100 h-100"
+                  src="/assets/about_map.png"
+                  alt=""
+                />
+              </div>
             </div>
           </div>
         </div>
