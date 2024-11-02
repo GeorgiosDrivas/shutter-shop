@@ -1,11 +1,6 @@
 #about {
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
   padding-top: 9.5rem;
   padding-bottom: 5rem;
-  display: flex;
 }
 
 #about h2 {
@@ -24,7 +19,6 @@
 }
 
 #passion-image {
-  width: 100%;
   height: 700px;
 }
 

@@ -4,7 +4,7 @@ import "./styles/app.css";
 import Footer from "./components/footer/footer";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Contact from "./components/contact";
-import About from "./components/about";
+import About from "./components/about/about";
 
 export default function App() {
   return (

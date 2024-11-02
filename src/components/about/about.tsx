@@ -1,9 +1,13 @@
-import "../styles/about.style.css";
+import "../../styles/about.style.css";
+import SinglePerson from "./singlePerson";
 
 export default function About() {
   return (
     <>
-      <section id="about">
+      <section
+        id="about"
+        className="d-flex flex-column align-items-center justify-content-center w-100"
+      >
         <div className="container">
           <div className="row">
             <div className="col-10">
@@ -25,7 +29,7 @@ export default function About() {
                 <img
                   className="w-100 h-100"
                   src="/assets/about_img_1.png"
-                  alt=""
+                  alt="Hero image"
                 />
               </div>
             </div>
@@ -48,11 +52,11 @@ export default function About() {
               </div>
             </div>
             <div className="col-6 p-0">
-              <div id="passion-image">
+              <div id="passion-image" className="w-100">
                 <img
                   className="w-100 h-100"
                   src="/assets/about-passion-img.png"
-                  alt=""
+                  alt="Passion image"
                 />
               </div>
             </div>
@@ -71,44 +75,32 @@ export default function About() {
           </div>
           <div className="row">
             <div className="col-3">
-              <div className="single-person position-relative">
-                <img
-                  className="w-100 h-100"
-                  src="/assets/person1.png"
-                  alt="Single Person Image"
-                />
-                <div className="single-person-details position-absolute w-100 ps-4">
-                  <p className="m-0">John Smith</p>
-                  <p className="m-0">Founder & CEO</p>
-                </div>
-              </div>
+              <SinglePerson
+                name="John Smith"
+                title="Founder & CEO"
+                image="person1"
+              />
             </div>
             <div className="col-3">
-              <div className="single-person position-relative">
-                <img className="w-100 h-100" src="/assets/person2.png" alt="" />
-                <div className="single-person-details position-absolute w-100 ps-4">
-                  <p className="m-0">Kendrica Johnson</p>
-                  <p className="m-0">Camera Technician</p>
-                </div>
-              </div>
+              <SinglePerson
+                name="Kendrica Johnson"
+                title="Camera Technician"
+                image="person2"
+              />
             </div>
             <div className="col-3">
-              <div className="single-person position-relative">
-                <img className="w-100 h-100" src="/assets/person3.png" alt="" />
-                <div className="single-person-details position-absolute w-100 ps-4">
-                  <p className="m-0">Mathew Douglas</p>
-                  <p className="m-0">Chief Operating Officer</p>
-                </div>
-              </div>
+              <SinglePerson
+                name="Mathew Douglas"
+                title="Chief Operating Officer"
+                image="person3"
+              />
             </div>
             <div className="col-3">
-              <div className="single-person position-relative">
-                <img className="w-100 h-100" src="/assets/person4.png" alt="" />
-                <div className="single-person-details position-absolute w-100 ps-4">
-                  <p className="m-0">Kristen Borman</p>
-                  <p className="m-0">Head of Marketing</p>
-                </div>
-              </div>
+              <SinglePerson
+                name="Kristen Borman"
+                title="Head of Marketing"
+                image="person4"
+              />
             </div>
           </div>
         </div>
