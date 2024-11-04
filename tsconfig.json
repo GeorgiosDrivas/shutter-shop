@@ -5,7 +5,8 @@
     "baseUrl": "./src",
     "paths": {
       "@components/*": ["components/*"],
-      "@styles/*": ["src/components/styles/*"]
+      "@styles/*": ["src/components/styles/*"],
+      "@globalStyles/*": ["src/styles/*"]
     }
   },
   "include": ["src"]

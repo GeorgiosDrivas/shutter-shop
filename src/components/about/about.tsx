@@ -1,5 +1,5 @@
 import "@styles/about.style.css";
-import SinglePerson from "./singlePerson";
+import SinglePerson from "@components/about/singlePerson";
 
 export default function About() {
   return (
