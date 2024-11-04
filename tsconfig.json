@@ -6,7 +6,7 @@
     "paths": {
       "@components/*": ["components/*"],
       "@styles/*": ["src/components/styles/*"],
-      "@globalStyles/*": ["src/styles/*"]
+      "@globalStyles/*": ["src/globalStyles/*"]
     }
   },
   "include": ["src"]

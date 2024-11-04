@@ -46,3 +46,18 @@ li {
 .main-nav li:hover:after {
   opacity: 1;
 }
+
+select {
+  border: none;
+  background: transparent;
+  font-family: "Jost", sans-serif;
+  color: #49494b;
+  cursor: pointer;
+}
+
+#menu-select option {
+  border: 1px solid #6f6c67;
+  width: 100px;
+  height: 100px;
+  background-color: #f6f4de;
+}

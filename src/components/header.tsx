@@ -22,7 +22,17 @@ export default function Header() {
                 <div className="d-flex justify-content-center">
                   <ul className="d-flex justify-content-between align-items-center m-0 p-0 main-nav">
                     <li className="fw-bold position-relative cursor-pointer">
-                      Shop
+                      <select className="fw-bold" id="menu-select">
+                        <option value="">
+                          <a href="">All Products</a>
+                        </option>
+                        <option value="">
+                          <a href="">Cameras</a>
+                        </option>
+                        <option value="">
+                          <a href="">Lenses</a>
+                        </option>
+                      </select>
                     </li>
                     <li className="fw-bold position-relative cursor-pointer">
                       Services
