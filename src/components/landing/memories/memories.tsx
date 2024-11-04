@@ -1,4 +1,4 @@
-import SingleMemory from "./singleMemory";
+import SingleMemory from "@components/landing/memories/singleMemory";
 import "@styles/memories.style.css";
 
 export default function Memories() {

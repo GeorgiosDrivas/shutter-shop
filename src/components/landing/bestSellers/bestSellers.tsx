@@ -1,5 +1,5 @@
-import Cameras from "./bestSellersCameras";
-import Lenses from "./bestSellersLenses";
+import Cameras from "@components/landing/bestSellers/bestSellersCameras";
+import Lenses from "@components/landing/bestSellers/bestSellersLenses";
 import "@styles/bestSellers.style.css";
 
 export default function BestSellers() {
