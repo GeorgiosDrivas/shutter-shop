@@ -1,10 +1,10 @@
-import BestSellers from "./bestSellers/bestSellers";
-import Memories from "./memories/memories";
-import Moments from "./moments";
-import Services from "./services";
-import Testimonials from "./testimonials/testimonials";
-import Values from "./values";
-import Hero from "./hero";
+import BestSellers from "@components/landing/bestSellers/bestSellers";
+import Memories from "@components/landing/memories/memories";
+import Moments from "@components/landing/moments";
+import Services from "@components/landing/services";
+import Testimonials from "@components/landing/testimonials/testimonials";
+import Values from "@components/landing/values";
+import Hero from "@components/landing/hero";
 
 export default function Landing() {
   return (
