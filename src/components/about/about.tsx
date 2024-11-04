@@ -1,4 +1,4 @@
-import "../../styles/about.style.css";
+import "@styles/about.style.css";
 import SinglePerson from "./singlePerson";
 
 export default function About() {
