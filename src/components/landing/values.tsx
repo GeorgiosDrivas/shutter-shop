@@ -1,4 +1,4 @@
-import "./styles/values.style.css";
+import "@styles/values.style.css";
 
 export default function Values() {
   return (

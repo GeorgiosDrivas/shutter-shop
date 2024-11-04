@@ -1,4 +1,4 @@
-import "../styles/bestSellers.style.css";
+import "@styles/bestSellers.style.css";
 
 export default function Lenses() {
   return (

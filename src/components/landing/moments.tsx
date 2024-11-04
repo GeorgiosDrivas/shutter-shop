@@ -1,4 +1,4 @@
-import "./styles/moments.style.css";
+import "@styles/moments.style.css";
 
 export default function Moments() {
   return (

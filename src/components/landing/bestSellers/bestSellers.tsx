@@ -1,6 +1,6 @@
 import Cameras from "./bestSellersCameras";
 import Lenses from "./bestSellersLenses";
-import "../styles/bestSellers.style.css";
+import "@styles/bestSellers.style.css";
 
 export default function BestSellers() {
   return (

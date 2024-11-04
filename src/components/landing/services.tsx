@@ -1,4 +1,4 @@
-import "./styles/services.style.css";
+import "@styles/services.style.css";
 
 export default function Services() {
   return (

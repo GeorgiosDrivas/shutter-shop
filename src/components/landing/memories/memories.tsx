@@ -1,5 +1,5 @@
-import "../styles/memories.style.css";
 import SingleMemory from "./singleMemory";
+import "@styles/memories.style.css";
 
 export default function Memories() {
   return (
