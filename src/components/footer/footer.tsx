@@ -1,5 +1,5 @@
-import "@globalStyles/footer.style.css";
-import FooterSocials from "@components/footer/footerSocials";
+import "../../globalStyles/footer.style.css";
+import FooterSocials from "./footerSocials";
 
 export default function Footer() {
   return (

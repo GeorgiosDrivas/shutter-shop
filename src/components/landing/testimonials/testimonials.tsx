@@ -1,5 +1,5 @@
 import "swiper/swiper-bundle.css";
-import "@styles/testimonials.style.css";
+import "../../styles/testimonials.style.css";
 
 import { Navigation, Pagination, Scrollbar, A11y } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
