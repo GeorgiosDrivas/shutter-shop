@@ -11,7 +11,7 @@
   height: 40px;
 }
 
-ul {
+ul:not(.workshops ul, .equipment ul, .framing ul) {
   list-style-type: none;
 }
 

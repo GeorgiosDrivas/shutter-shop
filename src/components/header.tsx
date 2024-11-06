@@ -35,7 +35,7 @@ export default function Header() {
                       </select>
                     </li>
                     <li className="fw-bold position-relative cursor-pointer">
-                      Services
+                      <Link to="/services">Services</Link>
                     </li>
                     <li className="fw-bold position-relative cursor-pointer">
                       <Link to="/about">About</Link>
