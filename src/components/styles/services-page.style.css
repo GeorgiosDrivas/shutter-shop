@@ -42,24 +42,18 @@
   padding: 30px;
 }
 
-.equipment h3 {
-  font-size: 2.5rem;
-}
-
-.equipment ul {
-  font-size: 1.125rem;
-}
-
 .framing {
   margin-top: 50px;
   padding: 30px;
   border: 1px solid;
 }
 
-.framing h3 {
+.framing h3,
+.equipment h3 {
   font-size: 2.2rem;
 }
 
-.framing ul {
+.framing ul,
+.equipment ul {
   font-size: 1.125rem;
 }
