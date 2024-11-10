@@ -198,7 +198,7 @@ export default function About() {
                 <img
                   className="w-100 h-100"
                   src="/assets/about_map.png"
-                  alt=""
+                  alt="#"
                 />
               </div>
             </div>

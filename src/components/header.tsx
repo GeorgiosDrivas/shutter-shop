@@ -23,14 +23,14 @@ export default function Header() {
                   <ul className="d-flex justify-content-between align-items-center m-0 p-0 main-nav">
                     <li className="fw-bold position-relative cursor-pointer">
                       <select className="fw-bold" id="menu-select">
-                        <option value="">
-                          <a href="">All Products</a>
+                        <option value="all">
+                          <a href="#">All Products</a>
                         </option>
-                        <option value="">
-                          <a href="">Cameras</a>
+                        <option value="cameras">
+                          <a href="#">Cameras</a>
                         </option>
-                        <option value="">
-                          <a href="">Lenses</a>
+                        <option value="lenses">
+                          <a href="#">Lenses</a>
                         </option>
                       </select>
                     </li>

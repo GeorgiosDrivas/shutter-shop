@@ -35,23 +35,23 @@ export default function Footer() {
                 <div>
                   <p>Product</p>
                   <div className="d-flex flex-column justify-content-start align-items-start">
-                    <a href="">Shop</a>
-                    <a href="">Services</a>
+                    <a href="#">Shop</a>
+                    <a href="#">Services</a>
                   </div>
                 </div>
                 <div>
                   <p>Company</p>
                   <div className="d-flex flex-column justify-content-start align-items-start">
-                    <a href="">About</a>
-                    <a href="">Blog</a>
-                    <a href="">Contact</a>
+                    <a href="#">About</a>
+                    <a href="#">Blog</a>
+                    <a href="#">Contact</a>
                   </div>
                 </div>
                 <div>
                   <p>Other Pages</p>
                   <div className="d-flex flex-column justify-content-start align-items-start">
-                    <a href="">Sign up</a>
-                    <a href="">Log in</a>
+                    <a href="#">Sign up</a>
+                    <a href="#">Log in</a>
                   </div>
                 </div>
               </div>
@@ -61,13 +61,13 @@ export default function Footer() {
             <div className="col-12">
               <div className="footer-bottom d-flex justify-content-between align-items-center">
                 <div className="d-flex justify-content-center align-items-center">
-                  <a href="" className="me-3">
+                  <a href="#" className="me-3">
                     Licenses
                   </a>
-                  <a href="" className="me-3">
+                  <a href="#" className="me-3">
                     Style Guide
                   </a>
-                  <a href="">Change Log</a>
+                  <a href="#">Change Log</a>
                 </div>
                 <div className="d-flex justify-content-center align-items-center">
                   <p className="me-4">

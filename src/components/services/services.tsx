@@ -57,7 +57,10 @@ export default function Services() {
                       our professional photographers.
                     </li>
                   </ul>
-                  <img src="/assets/core-services-img.png" alt="" />
+                  <img
+                    src="/assets/core-services-img.png"
+                    alt="Core Services"
+                  />
                 </div>
               </div>
               <div className="col-6">

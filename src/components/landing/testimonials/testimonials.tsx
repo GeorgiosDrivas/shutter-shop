@@ -23,7 +23,6 @@ export default function Testimonials() {
             <div className="col-12">
               <div className="testimonials-swiper">
                 <Swiper
-                  // install Swiper modules
                   modules={[Navigation, Pagination, Scrollbar, A11y]}
                   navigation
                   loop={true}
