@@ -111,6 +111,106 @@ export default function Services() {
             </div>
           </div>
         </section>
+        <section id="all-services">
+          <div className="container">
+            <div className="row">
+              <div className="col-4">
+                <div className="all-services-single-content">
+                  <h2>All Services</h2>
+                  <p>
+                    The service we offer is specifically designed to meet your
+                    needs.
+                  </p>
+                  <button className="text-uppercase">Contact us</button>
+                </div>
+              </div>
+              <div className="col-4">
+                <div className="service-wrapper">
+                  <h3>Portrait Photography</h3>
+                  <p className="my-4">
+                    Capture the essence of your personality with our
+                    personalized portrait sessions.
+                  </p>
+                  <ul className="ps-4">
+                    <li>Create lasting memories with your loved ones.</li>
+                    <li>
+                      Professional headshots and personal branding images.
+                    </li>
+                    <li>Cherish the early stages of your child's life.</li>
+                  </ul>
+                </div>
+              </div>
+              <div className="col-4">
+                <div className="service-wrapper">
+                  <h3>Event Photography</h3>
+                  <p className="my-4">
+                    Preserve the excitement and emotions of your special events.
+                  </p>
+                  <ul className="ps-4">
+                    <li>Comprehensive coverage of your big day.</li>
+                    <li>
+                      Professional documentation of conferences, meetings, and
+                      parties.
+                    </li>
+                    <li>Celebrate milestones with beautiful photographs.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div className="row mt-5">
+              <div className="col-4">
+                <div className="service-wrapper">
+                  <h3>Studio Photography</h3>
+                  <p className="my-4">
+                    Take advantage of our fully equipped studio for controlled
+                    and creative shoots.
+                  </p>
+                  <ul className="ps-4">
+                    <li>
+                      High-quality images for catalogs, websites, and marketing
+                      materials.
+                    </li>
+                    <li>
+                      Showcase clothing and accessories with professional flair.
+                    </li>
+                    <li>
+                      Bring artistic visions to life with our creative team.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div className="col-4">
+                <div className="service-wrapper">
+                  <h3>Outdoor & Location Shoots</h3>
+                  <p className="my-4">
+                    Embrace natural settings for dynamic and vibrant
+                    photographs.
+                  </p>
+                  <ul className="ps-4">
+                    <li>Capture your love story in meaningful locations.</li>
+                    <li>
+                      Document real-life events and situations artistically.
+                    </li>
+                    <li>Stunning images of nature and urban environments.</li>
+                  </ul>
+                </div>
+              </div>
+              <div className="col-4">
+                <div className="service-wrapper">
+                  <h3>Printing & Framing Services</h3>
+                  <p className="my-4">
+                    Turn your favorite images into tangible keepsakes.
+                  </p>
+                  <ul className="ps-4">
+                    <li>High-quality prints in various sizes and finishes.</li>
+                    <li>Unique ways to display your photographs.</li>
+                    <li>Expert framing to complement your images.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
       </section>
     </>
   );
