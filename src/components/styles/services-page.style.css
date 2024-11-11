@@ -162,6 +162,39 @@
   transition: all, 0.5s;
 }
 
-.singleAccordion-content.clicked {
+.singleAccordion-wrap.clicked .singleAccordion-content {
   max-height: 500px;
+}
+
+.singleAccordion-wrap.clicked .accordion-icon::after {
+  transform: rotate(90deg);
+}
+
+.accordion-icon {
+  position: relative;
+  border: 2px solid #98a2b3;
+  width: 25px;
+  height: 25px;
+  border-radius: 40px;
+}
+
+.accordion-icon::before {
+  content: "";
+  width: 14px;
+  height: 2px;
+  background-color: #98a2b3;
+  position: absolute;
+  bottom: 10px;
+  left: 4px;
+}
+
+.accordion-icon::after {
+  content: "";
+  width: 2px;
+  height: 12px;
+  background-color: #98a2b3;
+  position: absolute;
+  bottom: 5px;
+  left: 10px;
+  transition: all, 0.5s;
 }
