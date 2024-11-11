@@ -127,6 +127,32 @@
   line-height: 1.4em;
 }
 
-#why-choose {
+#why-choose,
+#frequently-asked-questions {
   padding: 8rem 0;
+}
+
+#frequently-asked-questions h2 {
+  color: #302f2d;
+  text-transform: none;
+  font-size: 3.5rem;
+  font-weight: 500;
+  line-height: 1.15em;
+}
+
+.singleAccordion {
+  height: 72px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+  margin-bottom: 15px;
+  overflow: hidden;
+  padding: 27px 30px;
+}
+
+.singleAccordion p {
+  font-size: 1.125rem;
+}
+
+.singleAccordion p:first-child {
+  font-weight: 500;
 }

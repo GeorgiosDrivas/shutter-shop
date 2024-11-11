@@ -1,4 +1,5 @@
 import "../styles/services-page.style.css";
+import ServiceAccordion from "./servicesAccordion";
 
 export default function Services() {
   return (
@@ -243,6 +244,7 @@ export default function Services() {
             </div>
           </div>
         </section>
+        <ServiceAccordion />
       </section>
     </>
   );
