@@ -33,10 +33,10 @@ export default function ServiceAccordion() {
     <section id="frequently-asked-questions">
       <div className="container">
         <div className="row">
-          <div className="col-6">
+          <div className="col-5">
             <h2>Frequently Asked Questions</h2>
           </div>
-          <div className="col-6">
+          <div className="col-7">
             <div className="accordions">
               {accordions.map((item) => (
                 <SingleAccordion
