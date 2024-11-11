@@ -211,6 +211,38 @@ export default function Services() {
             </div>
           </div>
         </section>
+        <section id="why-choose">
+          <div className="container">
+            <div className="row">
+              <div className="col-8">
+                <h2>Why Choose Photography Shop Yourself</h2>
+              </div>
+              <div className="col-4">
+                <div className="why-choose-wrap">
+                  <p>Experienced Professionals</p>
+                  <p>
+                    Our team has years of experience in various photography
+                    genres.
+                  </p>
+                </div>
+                <div className="why-choose-wrap">
+                  <p>State-of-the-Art Equipment</p>
+                  <p>
+                    We use the latest cameras and technology to deliver
+                    top-quality results.
+                  </p>
+                </div>
+                <div className="why-choose-wrap">
+                  <p>Customer Satisfaction</p>
+                  <p>
+                    We are dedicated to providing exceptional service and
+                    creating lasting memories.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
       </section>
     </>
   );

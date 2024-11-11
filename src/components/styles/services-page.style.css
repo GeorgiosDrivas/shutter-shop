@@ -107,3 +107,26 @@
 .service-wrapper p {
   font-size: 1.125rem;
 }
+
+#why-choose h2 {
+  font-size: 3.5rem;
+  font-weight: 500;
+  line-height: 1.15em;
+  color: #302f2d;
+  text-transform: none;
+  padding-right: 70px;
+}
+
+.why-choose-wrap {
+  border-top: 1px solid;
+}
+
+.why-choose-wrap p:first-child {
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1.4em;
+}
+
+#why-choose {
+  padding: 8rem 0;
+}
