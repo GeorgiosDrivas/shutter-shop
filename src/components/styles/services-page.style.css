@@ -66,6 +66,15 @@
 
 #all-services ul {
   list-style-type: disc;
+  grid-column-gap: 1rem;
+  grid-row-gap: 1rem;
+  padding-left: 1.25rem;
+  display: flex;
+  flex-direction: column;
+}
+
+#all-services ul li {
+  margin: 0;
 }
 
 .all-services-single-content h2 {
@@ -86,7 +95,8 @@
 
 .service-wrapper {
   border: 1px solid #f6f4de;
-  padding: 30px 20px;
+  padding: 30px 18px;
+  min-height: 390px;
 }
 
 .service-wrapper h3 {
