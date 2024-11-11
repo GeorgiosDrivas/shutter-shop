@@ -140,13 +140,12 @@
   line-height: 1.15em;
 }
 
-.singleAccordion {
-  height: 72px;
+.singleAccordion-wrap {
+  cursor: pointer;
   background-color: rgb(255, 255, 255);
-  border-radius: 20px;
   margin-bottom: 15px;
-  overflow: hidden;
-  padding: 27px 30px;
+  border-radius: 20px;
+  padding: 25px 25px;
 }
 
 .singleAccordion p {
@@ -155,4 +154,14 @@
 
 .singleAccordion p:first-child {
   font-weight: 500;
+}
+
+.singleAccordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: all, 0.5s;
+}
+
+.singleAccordion-content.clicked {
+  max-height: 500px;
 }
