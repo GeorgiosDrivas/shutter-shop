@@ -8,7 +8,9 @@ export default function Moments() {
           <div className="row justify-content-center">
             <div className="col-9">
               <div className="moments-wrap position-relative d-flex flex-column justify-content-center align-items-center">
-                <h2 className="text-capitalize">Capture Beautiful Moments</h2>
+                <h2 className="section-h2 text-capitalize">
+                  Capture Beautiful Moments
+                </h2>
                 <p className="text-center">
                   We offer professional photography services and products to
                   help you capture life's most beautiful moments.

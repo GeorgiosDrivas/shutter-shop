@@ -8,7 +8,7 @@ export default function Values() {
           <div className="row">
             <div className="col-12">
               <div className="text-center">
-                <h2 className="mb-3">
+                <h2 className="section-h2 mb-3">
                   We Value Unique
                   <br />
                   Quality

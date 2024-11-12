@@ -4,8 +4,7 @@ body {
   color: #49494b;
 }
 
-h2 {
-  font-family: Jost, sans-serif;
+.section-h2 {
   font-size: calc(3.5rem + 3vh);
   font-weight: 600;
   text-transform: uppercase;

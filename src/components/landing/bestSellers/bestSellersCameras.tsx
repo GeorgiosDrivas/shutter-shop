@@ -8,7 +8,7 @@ export default function Cameras() {
           <div className="col-12">
             <div className="best-seller best-seller-lenses-title text-center">
               <p className="category">Best Sellers</p>
-              <h2>Cameras</h2>
+              <h2 className="section-h2">Cameras</h2>
             </div>
           </div>
         </div>

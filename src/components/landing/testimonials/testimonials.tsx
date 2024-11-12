@@ -13,7 +13,7 @@ export default function Testimonials() {
         <div className="container">
           <div className="row">
             <div className="col-12">
-              <h2 className="text-center">
+              <h2 className="section-h2 text-center">
                 What our
                 <br /> customers say
               </h2>

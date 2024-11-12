@@ -8,7 +8,7 @@ export default function Services() {
           <div className="row">
             <div className="col-12">
               <div className="title text-center">
-                <h2 className="text-uppercase mb-5">Our services</h2>
+                <h2 className="section-h2 mb-5">Our services</h2>
               </div>
             </div>
           </div>
