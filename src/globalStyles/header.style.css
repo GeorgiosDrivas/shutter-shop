@@ -54,7 +54,7 @@ li {
   position: relative;
 }
 
-#menu-select div {
+#menu-select .default {
   position: absolute;
   display: none;
   width: 300px;
@@ -68,12 +68,26 @@ li {
   box-shadow: 0 0 15px #0000001a;
 }
 
-#menu-select div.open {
-  display: block;
+#menu-select .default.open {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .menu-select-icon {
   transform: rotate(90deg);
   bottom: 4px;
   right: -24px;
+}
+
+.default div {
+  border-radius: 4px;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #f6f4de;
+  padding: 32px 24px;
+  text-decoration: none;
+  transition: border-color 0.3s, background-color 0.3s;
+  display: flex;
 }
