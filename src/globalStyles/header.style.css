@@ -47,17 +47,33 @@ li {
   opacity: 1;
 }
 
-select {
-  border: none;
-  background: transparent;
+#menu-select {
   font-family: "Jost", sans-serif;
   color: #49494b;
   cursor: pointer;
+  position: relative;
 }
 
-#menu-select option {
-  border: 1px solid #6f6c67;
-  width: 100px;
-  height: 100px;
-  background-color: #f6f4de;
+#menu-select div {
+  position: absolute;
+  display: none;
+  width: 300px;
+  height: 200px;
+  background-color: #ebe9d2;
+  left: -96px;
+  bottom: -230px;
+  border-radius: 2px;
+  margin-top: 88px;
+  padding: 24px;
+  box-shadow: 0 0 15px #0000001a;
+}
+
+#menu-select div.open {
+  display: block;
+}
+
+.menu-select-icon {
+  transform: rotate(90deg);
+  bottom: 4px;
+  right: -24px;
 }
