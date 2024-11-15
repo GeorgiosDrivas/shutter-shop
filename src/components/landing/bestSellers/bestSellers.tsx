@@ -6,10 +6,10 @@ export default function BestSellers() {
   return (
     <>
       <section className="best-sellers top">
-        <Cameras />
+        <Cameras bestSellerText={true} />
       </section>
       <section className="best-sellers mt-0">
-        <Lenses />
+        <Lenses bestSellerText={true} />
       </section>
     </>
   );

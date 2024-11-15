@@ -1,13 +1,17 @@
 import "../../styles/bestSellers.style.css";
 
-export default function Cameras() {
+export default function Cameras({
+  bestSellerText,
+}: {
+  bestSellerText: boolean;
+}) {
   return (
     <>
       <div className="container p-0">
         <div className="row mb-4">
           <div className="col-12">
             <div className="best-seller best-seller-lenses-title text-center">
-              <p className="category">Best Sellers</p>
+              {bestSellerText && <p className="category">Best Sellers</p>}
               <h2 className="section-h2">Cameras</h2>
             </div>
           </div>
