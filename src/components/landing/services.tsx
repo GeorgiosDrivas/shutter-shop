@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "../styles/services.style.css";
 
 export default function Services() {
@@ -20,7 +21,9 @@ export default function Services() {
                   Get your camera back in action with our expert repair
                   services.
                 </p>
-                <button className="text-uppercase">Learn More</button>
+                <Link to="/services">
+                  <button className="text-uppercase">Learn More</button>
+                </Link>
               </div>
             </div>
             <div className="col-12 col-lg-4 p-0">
@@ -30,7 +33,9 @@ export default function Services() {
                   Preserve your memories with professional film development and
                   digitization.
                 </p>
-                <button className="text-uppercase">Learn More</button>
+                <Link to="/services">
+                  <button className="text-uppercase">Learn More</button>
+                </Link>
               </div>
             </div>
             <div className="col-12 col-lg-4 p-0">
@@ -40,7 +45,9 @@ export default function Services() {
                   Enhance your skills with our hands-on workshops for all
                   levels.
                 </p>
-                <button className="text-uppercase">Learn More</button>
+                <Link to="/services">
+                  <button className="text-uppercase">Learn More</button>
+                </Link>
               </div>
             </div>
           </div>

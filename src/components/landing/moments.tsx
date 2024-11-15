@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "../styles/moments.style.css";
 
 export default function Moments() {
@@ -18,7 +19,9 @@ export default function Moments() {
                   to optimize your earnings and achieve your financial
                   <br /> goals.
                 </p>
-                <button className="text-uppercase">Discover More</button>
+                <Link to="/services">
+                  <button className="text-uppercase">Discover More</button>
+                </Link>
                 <div className="position-absolute moments-img">
                   <img
                     src="/assets/moments_img.png"

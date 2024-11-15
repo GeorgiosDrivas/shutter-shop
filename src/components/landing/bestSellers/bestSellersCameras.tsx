@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "../../styles/bestSellers.style.css";
 
 export default function Cameras({
@@ -74,7 +75,9 @@ export default function Cameras({
           <div className="row">
             <div className="col-12">
               <div className="more-products text-center mt-4">
-                <button className="">View all Cameras</button>
+                <Link to="/category/cameras">
+                  <button>View all Cameras</button>
+                </Link>
               </div>
             </div>
           </div>

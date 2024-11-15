@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "../styles/values.style.css";
 
 export default function Values() {
@@ -19,7 +20,9 @@ export default function Values() {
                   <br /> selection of equipment and services helps you
                   <br /> express your creativity and style.
                 </p>
-                <button className="text-uppercase mb-5">Shop Now</button>
+                <Link to="/all-products">
+                  <button className="text-uppercase mb-5">Shop Now</button>
+                </Link>
               </div>
             </div>
           </div>

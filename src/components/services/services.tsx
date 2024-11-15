@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "../styles/services-page.style.css";
 import ServiceAccordion from "./servicesAccordion";
 
@@ -122,7 +123,9 @@ export default function Services() {
                     The service we offer is specifically designed to meet your
                     needs.
                   </p>
-                  <button className="text-uppercase">Contact us</button>
+                  <Link to="/contact">
+                    <button className="text-uppercase">Contact us</button>
+                  </Link>
                 </div>
               </div>
               <div className="col-4">

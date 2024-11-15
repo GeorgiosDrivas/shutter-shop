@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "../styles/hero.styles.css";
 
 export default function Hero() {
@@ -26,10 +27,14 @@ export default function Hero() {
                   <br /> professionals and enthusiasts alike.
                 </p>
                 <div className="hero-btns d-flex justify-content-around align-items-center">
-                  <button className="button text-uppercase">Shop</button>
-                  <button className="button tr-bg text-uppercase">
-                    Explore Services
-                  </button>
+                  <Link to="/all-products">
+                    <button className="button text-uppercase">Shop</button>
+                  </Link>
+                  <Link to="/services">
+                    <button className="button tr-bg text-uppercase">
+                      Explore Services
+                    </button>
+                  </Link>
                 </div>
               </div>
             </div>

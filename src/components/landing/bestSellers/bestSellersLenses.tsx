@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "../../styles/bestSellers.style.css";
 
 export default function Lenses({
@@ -81,7 +82,9 @@ export default function Lenses({
           <div className="row">
             <div className="col-12">
               <div className="more-products text-center mt-4">
-                <button className="">View all Lenses</button>
+                <Link to="/category/lenses">
+                  <button>View all Lenses</button>
+                </Link>
               </div>
             </div>
           </div>
