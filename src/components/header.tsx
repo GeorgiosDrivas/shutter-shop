@@ -55,15 +55,15 @@ export default function Header() {
                               <p>Example of Home Section 1</p>
                             </div>
                             <div>
-                              <a href="#" className="mb-2">
+                              <Link to="/category/cameras" className="mb-2">
                                 Cameras
-                              </a>
+                              </Link>
                               <p>Example of Home Section 2</p>
                             </div>
                             <div>
-                              <a href="#" className="mb-2">
+                              <Link to="/category/lenses" className="mb-2">
                                 Lenses
-                              </a>
+                              </Link>
                               <p>Example of Home Section 3</p>
                             </div>
                           </div>

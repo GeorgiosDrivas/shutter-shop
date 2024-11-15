@@ -2,8 +2,10 @@ import "../../styles/bestSellers.style.css";
 
 export default function Cameras({
   bestSellerText,
+  viewButton,
 }: {
-  bestSellerText: boolean;
+  bestSellerText: string;
+  viewButton: boolean;
 }) {
   return (
     <>
@@ -11,7 +13,7 @@ export default function Cameras({
         <div className="row mb-4">
           <div className="col-12">
             <div className="best-seller best-seller-lenses-title text-center">
-              {bestSellerText && <p className="category">Best Sellers</p>}
+              {bestSellerText && <p className="category">{bestSellerText}</p>}
               <h2 className="section-h2">Cameras</h2>
             </div>
           </div>
@@ -68,13 +70,15 @@ export default function Cameras({
             </div>
           </div>
         </div>
-        <div className="row">
-          <div className="col-12">
-            <div className="more-products text-center mt-4">
-              <button className="">View all Cameras</button>
+        {viewButton && (
+          <div className="row">
+            <div className="col-12">
+              <div className="more-products text-center mt-4">
+                <button className="">View all Cameras</button>
+              </div>
             </div>
           </div>
-        </div>
+        )}
       </div>
     </>
   );

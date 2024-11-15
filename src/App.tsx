@@ -6,7 +6,9 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Contact from "./components/contact";
 import About from "./components/about/about";
 import Services from "./components/services/services";
-import AllProducts from "./components/allProducts/allProducts";
+import AllProducts from "./components/Products/allProducts";
+import CamerasProducts from "./components/Products/cameras";
+import LenseProducts from "./components/Products/lenses";
 
 export default function App() {
   return (
@@ -19,6 +21,8 @@ export default function App() {
           <Route path="/about" element={<About />} />
           <Route path="/services" element={<Services />} />
           <Route path="/all-products" element={<AllProducts />} />
+          <Route path="/category/cameras" element={<CamerasProducts />} />
+          <Route path="/category/lenses" element={<LenseProducts />} />
         </Routes>
         <Footer />
       </BrowserRouter>

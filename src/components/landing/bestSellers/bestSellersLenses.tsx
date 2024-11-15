@@ -2,8 +2,10 @@ import "../../styles/bestSellers.style.css";
 
 export default function Lenses({
   bestSellerText,
+  viewButton,
 }: {
-  bestSellerText: boolean;
+  bestSellerText: string;
+  viewButton: boolean;
 }) {
   return (
     <>
@@ -11,7 +13,7 @@ export default function Lenses({
         <div className="row mb-4">
           <div className="col-12">
             <div className="best-seller best-seller-lenses-title text-center">
-              {bestSellerText && <p className="category">Best Sellers</p>}
+              {bestSellerText && <p className="category">{bestSellerText}</p>}
               <h2 className="section-h2">Lenses</h2>
             </div>
           </div>
@@ -75,13 +77,15 @@ export default function Lenses({
             </div>
           </div>
         </div>
-        <div className="row">
-          <div className="col-12">
-            <div className="more-products text-center mt-4">
-              <button className="">View all Lenses</button>
+        {viewButton && (
+          <div className="row">
+            <div className="col-12">
+              <div className="more-products text-center mt-4">
+                <button className="">View all Lenses</button>
+              </div>
             </div>
           </div>
-        </div>
+        )}
       </div>
     </>
   );
