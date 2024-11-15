@@ -49,9 +49,9 @@ export default function Header() {
                         <div className={menu ? "default open" : "default"}>
                           <div id="dropdown-wrap">
                             <div>
-                              <a href="#" className="mb-2">
+                              <Link to="/all-products" className="mb-2">
                                 All Products
-                              </a>
+                              </Link>
                               <p>Example of Home Section 1</p>
                             </div>
                             <div>
