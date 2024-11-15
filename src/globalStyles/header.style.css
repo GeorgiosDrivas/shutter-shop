@@ -104,6 +104,10 @@ li {
   display: grid;
 }
 
+#dropdown-wrap a {
+  font-weight: 500;
+}
+
 #dropdown-wrap p {
   font-weight: normal;
   font-size: 1rem;
