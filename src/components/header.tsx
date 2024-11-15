@@ -47,14 +47,25 @@ export default function Header() {
                           />
                         </svg>
                         <div className={menu ? "default open" : "default"}>
-                          <div>
-                            <a href="#">All Products</a>
-                          </div>
-                          <div>
-                            <a href="#">Cameras</a>
-                          </div>
-                          <div>
-                            <a href="#">Lenses</a>
+                          <div id="dropdown-wrap">
+                            <div>
+                              <a href="#" className="mb-2">
+                                All Products
+                              </a>
+                              <p>Example of Home Section 1</p>
+                            </div>
+                            <div>
+                              <a href="#" className="mb-2">
+                                Cameras
+                              </a>
+                              <p>Example of Home Section 2</p>
+                            </div>
+                            <div>
+                              <a href="#" className="mb-2">
+                                Lenses
+                              </a>
+                              <p>Example of Home Section 3</p>
+                            </div>
                           </div>
                         </div>
                       </div>
