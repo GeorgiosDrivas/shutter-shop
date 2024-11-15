@@ -21,7 +21,7 @@ export default function Services() {
                   Get your camera back in action with our expert repair
                   services.
                 </p>
-                <Link to="/services">
+                <Link to="/services" className="white-btn">
                   <button className="text-uppercase">Learn More</button>
                 </Link>
               </div>
@@ -33,7 +33,7 @@ export default function Services() {
                   Preserve your memories with professional film development and
                   digitization.
                 </p>
-                <Link to="/services">
+                <Link to="/services" className="white-btn">
                   <button className="text-uppercase">Learn More</button>
                 </Link>
               </div>
@@ -45,7 +45,7 @@ export default function Services() {
                   Enhance your skills with our hands-on workshops for all
                   levels.
                 </p>
-                <Link to="/services">
+                <Link to="/services" className="white-btn">
                   <button className="text-uppercase">Learn More</button>
                 </Link>
               </div>

@@ -18,4 +18,9 @@ a {
 
 a:hover {
   color: #49494b;
+  transition: all 0.3s;
+}
+
+.white-btn:hover {
+  background-color: #ffffff80;
 }

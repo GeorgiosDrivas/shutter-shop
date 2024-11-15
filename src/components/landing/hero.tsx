@@ -30,7 +30,7 @@ export default function Hero() {
                   <Link to="/all-products">
                     <button className="button text-uppercase">Shop</button>
                   </Link>
-                  <Link to="/services">
+                  <Link to="/services" className="white-btn">
                     <button className="button tr-bg text-uppercase">
                       Explore Services
                     </button>
