@@ -20,7 +20,9 @@ export default function Footer() {
               <div className="newsletter-form d-flex flex-column align-items-start justify-content-end">
                 <form>
                   <input type="text" placeholder="Enter your email" />
-                  <button className="text-uppercase">Subscribe</button>
+                  <button className="text-uppercase black-btn">
+                    Subscribe
+                  </button>
                 </form>
                 <p>We care about your data in our privacy policy.</p>
               </div>

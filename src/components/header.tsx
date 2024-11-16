@@ -84,7 +84,7 @@ export default function Header() {
                     </li>
                   </ul>
                   <div>
-                    <button id="cart" className="text-uppercase">
+                    <button id="cart" className="black-btn text-uppercase">
                       Cart
                     </button>
                   </div>

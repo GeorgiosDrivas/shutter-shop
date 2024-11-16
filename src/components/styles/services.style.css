@@ -23,14 +23,9 @@
   border-right: 1px solid;
 }
 
-#services a {
-  border: 1px solid;
-  background-color: transparent;
-  padding: 1rem 2rem;
-}
-
 #services button {
-  border: none;
+  border: 1px solid;
+  padding: 1rem 2rem;
   background-color: transparent;
 }
 

@@ -21,6 +21,14 @@ a:hover {
   transition: all 0.3s;
 }
 
-.white-btn:hover {
-  background-color: #ffffff80;
+.white-btn:hover button {
+  background-color: #ffffff80 !important;
+}
+
+#root .black-btn {
+  transition: all 0.3s;
+}
+
+#root .black-btn:hover {
+  background-color: #161616;
 }

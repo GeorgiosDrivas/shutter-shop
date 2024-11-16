@@ -82,7 +82,7 @@ export default function Lenses({
           <div className="row">
             <div className="col-12">
               <div className="more-products text-center mt-4">
-                <Link to="/category/lenses" className="white-btn">
+                <Link to="/category/lenses">
                   <button>View all Lenses</button>
                 </Link>
               </div>
