@@ -32,3 +32,11 @@ a:hover {
 #root .black-btn:hover {
   background-color: #161616;
 }
+
+#root .white-btn-hover {
+  transition: all 0.3s;
+}
+
+#root .white-btn-hover:hover {
+  background-color: #fff;
+}

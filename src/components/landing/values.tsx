@@ -21,7 +21,9 @@ export default function Values() {
                   <br /> express your creativity and style.
                 </p>
                 <Link to="/all-products">
-                  <button className="text-uppercase mb-5">Shop Now</button>
+                  <button className="text-uppercase mb-5 white-btn-hover">
+                    Shop Now
+                  </button>
                 </Link>
               </div>
             </div>

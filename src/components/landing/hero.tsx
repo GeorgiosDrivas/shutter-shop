@@ -28,7 +28,9 @@ export default function Hero() {
                 </p>
                 <div className="hero-btns d-flex justify-content-around align-items-center">
                   <Link to="/all-products">
-                    <button className="button text-uppercase">Shop</button>
+                    <button className="black-btn button text-uppercase">
+                      Shop
+                    </button>
                   </Link>
                   <Link to="/services" className="white-btn">
                     <button className="button tr-bg text-uppercase">

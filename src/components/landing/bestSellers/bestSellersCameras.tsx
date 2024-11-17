@@ -76,7 +76,7 @@ export default function Cameras({
             <div className="col-12">
               <div className="more-products text-center mt-4">
                 <Link to="/category/cameras">
-                  <button>View all Cameras</button>
+                  <button className="white-btn-hover">View all Cameras</button>
                 </Link>
               </div>
             </div>
