@@ -9,6 +9,7 @@ import Services from "./components/services/services";
 import AllProducts from "./components/Products/allProducts";
 import CamerasProducts from "./components/Products/cameras";
 import LenseProducts from "./components/Products/lenses";
+import Blog from "./components/blog/blog";
 
 export default function App() {
   return (
@@ -23,6 +24,7 @@ export default function App() {
           <Route path="/all-products" element={<AllProducts />} />
           <Route path="/category/cameras" element={<CamerasProducts />} />
           <Route path="/category/lenses" element={<LenseProducts />} />
+          <Route path="/blog" element={<Blog />} />
         </Routes>
         <Footer />
       </BrowserRouter>

@@ -77,7 +77,7 @@ export default function Header() {
                       <Link to="/about">About</Link>
                     </li>
                     <li className="fw-bold position-relative cursor-pointer">
-                      Blog
+                      <Link to="/blog">Blog</Link>
                     </li>
                     <li className="fw-bold position-relative cursor-pointer">
                       <Link to="/contact">Contact</Link>

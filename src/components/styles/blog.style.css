@@ -1,0 +1,16 @@
+#blog {
+  padding-top: 12.5rem;
+  padding-bottom: 8rem;
+}
+
+#blog h1 {
+  font-size: 3.5rem;
+  font-weight: 500;
+  line-height: 1.15em;
+}
+
+#blog p {
+  color: #49494b;
+  font-size: 1.375rem;
+  line-height: 1.4em;
+}
