@@ -26,7 +26,7 @@ export default function BlogPost({
           </div>
           <div className="article-content">
             <h2>{title}</h2>
-            <p>{content}</p>
+            <p className="content-paragraph">{content}</p>
           </div>
           <button className="p-0 mt-4">Read Post</button>
         </div>
