@@ -1,11 +1,12 @@
 import "../styles/blog.style.css";
+import BlogPost from "./blogPost";
 
 export default function Blog() {
   return (
     <>
       <section id="blog">
         <div className="container">
-          <div className="row">
+          <div className="row mb-5">
             <div className="col-7">
               <h1>News, updates, tutorials and more</h1>
             </div>
@@ -20,29 +21,31 @@ export default function Blog() {
           </div>
           <div className="row">
             <div className="col-4">
-              <div className="article-wrap">
-                <div className="article-img">
-                  <img
-                    className="w-100 h-100"
-                    src="/assets/article1.png"
-                    alt="Article 1 Image"
-                  />
-                </div>
-                <div className="article-info">
-                  <div className="article-details d-flex justify-content-between align-items-center mb-3">
-                    <a>Updates</a>
-                    <p>1/16/25</p>
-                  </div>
-                  <div className="article-content">
-                    <h2>Ab Molestiae Voluptas</h2>
-                    <p>
-                      Earum recusandae quis sed. Dolor asperiores atque
-                      consequatur. Sa
-                    </p>
-                  </div>
-                  <button className="p-0 mt-4">Read Post</button>
-                </div>
-              </div>
+              <BlogPost
+                image="/assets/article1.png"
+                category="Updates"
+                date="1/16/25"
+                title="Ab Molestiae Voluptas"
+                content="Earum recusandae quis sed. Dolor asperiores atque consequatur. Sa"
+              />
+            </div>
+            <div className="col-4">
+              <BlogPost
+                image="/assets/article2.png"
+                category="Press"
+                date="12/27/24"
+                title="Alias"
+                content="Dolores porro nostrum aut id nisi sit impedit. Qui expedita numquam pariatur molestiae vel. Minus"
+              />
+            </div>
+            <div className="col-4">
+              <BlogPost
+                image="/assets/article3.png"
+                category="Tutorial"
+                date="7/2/24"
+                title="Aut Quo"
+                content="Sed sunt non cumque aut impedit et. Ut adipisci molestias. Veniam dicta illo exercitationem consequatur eligendi"
+              />
             </div>
           </div>
         </div>
