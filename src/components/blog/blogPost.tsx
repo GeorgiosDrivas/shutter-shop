@@ -21,7 +21,7 @@ export default function BlogPost({
         </div>
         <div className="article-info">
           <div className="article-details d-flex justify-content-between align-items-center mb-3">
-            <a>{category}</a>
+            <a className="blog-category">{category}</a>
             <p>{date}</p>
           </div>
           <div className="article-content">
