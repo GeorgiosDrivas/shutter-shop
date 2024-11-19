@@ -27,10 +27,10 @@ export default function AllProducts() {
           <div className="row">
             <div className="col-12 p-0">
               <section className="best-sellers top">
-                <Cameras bestSellerText={false} />
+                <Cameras bestSellerText="" viewButton={true} />
               </section>
               <section className="best-sellers mt-0">
-                <Lenses bestSellerText={false} />
+                <Lenses bestSellerText="" viewButton={true} />
               </section>
             </div>
           </div>
