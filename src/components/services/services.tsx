@@ -60,6 +60,7 @@ export default function Services() {
                     </li>
                   </ul>
                   <img
+                    className="w-100 h-100"
                     src="/assets/core-services-img.png"
                     alt="Core Services"
                   />
