@@ -125,7 +125,9 @@ export default function Contact() {
                       <textarea id="message" placeholder="Message" />
                     </div>
                   </div>
-                  <button className="text-uppercase">Send Message</button>
+                  <button className="text-uppercase black-btn">
+                    Send Message
+                  </button>
                 </form>
               </div>
             </div>
