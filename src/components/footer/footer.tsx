@@ -37,16 +37,16 @@ export default function Footer() {
                 <div>
                   <p>Product</p>
                   <div className="d-flex flex-column justify-content-start align-items-start">
-                    <a href="#">Shop</a>
-                    <a href="#">Services</a>
+                    <a href="/all-products">Shop</a>
+                    <a href="/services">Services</a>
                   </div>
                 </div>
                 <div>
                   <p>Company</p>
                   <div className="d-flex flex-column justify-content-start align-items-start">
-                    <a href="#">About</a>
-                    <a href="#">Blog</a>
-                    <a href="#">Contact</a>
+                    <a href="/about">About</a>
+                    <a href="/blog">Blog</a>
+                    <a href="/contact">Contact</a>
                   </div>
                 </div>
                 <div>
