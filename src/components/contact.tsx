@@ -29,7 +29,7 @@ export default function Contact() {
                       stroke-linejoin="round"
                     ></path>
                   </svg>
-                  <p>info@gmail.com</p>
+                  <p className="single-contact-detail">info@gmail.com</p>
                 </div>
                 <div>
                   <svg
@@ -47,7 +47,7 @@ export default function Contact() {
                       stroke-linejoin="round"
                     ></path>
                   </svg>
-                  <p>1.800.000.000</p>
+                  <p className="single-contact-detail">1.800.000.000</p>
                 </div>
                 <div>
                   <svg
@@ -72,7 +72,7 @@ export default function Contact() {
                       stroke-linejoin="round"
                     ></path>
                   </svg>
-                  <p>123 Acme street</p>
+                  <p className="single-contact-detail">123 Acme street</p>
                 </div>
               </div>
             </div>

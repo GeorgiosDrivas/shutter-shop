@@ -70,3 +70,11 @@
   justify-content: start;
   align-items: center;
 }
+
+.single-contact-detail {
+  cursor: pointer;
+}
+
+.single-contact-detail:hover {
+  text-decoration: underline;
+}
