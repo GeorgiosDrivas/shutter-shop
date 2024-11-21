@@ -23,13 +23,13 @@
   margin-bottom: 30px;
 }
 
-.firstNameField,
-.lastNameField {
+.first-name-field,
+.last-name-field {
   width: 50%;
 }
 
-#firstName,
-#lastName {
+#first-name,
+#last-name {
   width: 100%;
 }
 

@@ -80,23 +80,23 @@ export default function Contact() {
               <div className="contact-form">
                 <form>
                   <div className="d-flex">
-                    <div className="firstNameField pe-4">
-                      <label htmlFor="firstName" className="d-block">
+                    <div className="first-name-field pe-4">
+                      <label htmlFor="first-name" className="d-block">
                         First Name *
                       </label>
                       <input
                         type="text"
-                        id="firstName"
+                        id="first-name"
                         placeholder="First Name"
                       />
                     </div>
-                    <div className="lastNameField">
-                      <label htmlFor="lastName" className="d-block">
+                    <div className="last-name-field">
+                      <label htmlFor="last-name" className="d-block">
                         Last Name *
                       </label>
                       <input
                         type="text"
-                        id="lastName"
+                        id="last-name"
                         placeholder="Last Name"
                       />
                     </div>

@@ -140,7 +140,7 @@
   line-height: 1.15em;
 }
 
-.singleAccordion-wrap {
+.single-accordion-wrap {
   cursor: pointer;
   background-color: rgb(255, 255, 255);
   margin-bottom: 15px;
@@ -148,25 +148,25 @@
   padding: 25px 25px;
 }
 
-.singleAccordion p {
+.single-accordion p {
   font-size: 1.125rem;
 }
 
-.singleAccordion p:first-child {
+.single-accordion p:first-child {
   font-weight: 500;
 }
 
-.singleAccordion-content {
+.single-accordion-content {
   max-height: 0;
   overflow: hidden;
   transition: all, 0.5s;
 }
 
-.singleAccordion-wrap.clicked .singleAccordion-content {
+.single-accordion-wrap.clicked .single-accordion-content {
   max-height: 500px;
 }
 
-.singleAccordion-wrap.clicked .accordion-icon::after {
+.single-accordion-wrap.clicked .accordion-icon::after {
   transform: rotate(90deg);
 }
 
