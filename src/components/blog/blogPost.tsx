@@ -28,7 +28,10 @@ export default function BlogPost({
             <h2>{title}</h2>
             <p className="content-paragraph">{content}</p>
           </div>
-          <button className="p-0 mt-4">Read Post</button>
+          <div className="d-flex justify-content-start align-items-center mt-4">
+            <button className="p-0">Read Post</button>
+            <img src="/assets/arrowSvg.svg" alt="" />
+          </div>
         </div>
       </div>
     </>
