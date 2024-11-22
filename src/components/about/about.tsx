@@ -67,7 +67,7 @@ export default function About() {
         <div className="container">
           <div className="row align-items-top mb-5">
             <div className="col-6">
-              <h2>Who we are</h2>
+              <h2 className="text-uppercase">Who we are</h2>
             </div>
             <div className="col-6">
               <p>Meet the talented individuals behind our business.</p>
@@ -118,7 +118,7 @@ export default function About() {
               </div>
             </div>
           </div>
-          <div className="row">
+          <div className="row mb-5">
             <div className="col-6">
               <div className="connect-details">
                 <div className="connect-detail">
@@ -144,7 +144,9 @@ export default function About() {
                   </svg>
                   <h5 className="m-0">Email Us</h5>
                   <p className="m-0">We're ready to answer your questions.</p>
-                  <a href="#">support@email.com</a>
+                  <a href="#" className="text-decoration-underline">
+                    support@email.com
+                  </a>
                 </div>
                 <div className="connect-detail">
                   <svg

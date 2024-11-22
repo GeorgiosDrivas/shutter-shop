@@ -29,10 +29,12 @@
 
 #who-we-are {
   padding: 100px 0;
+  margin-bottom: 100px;
 }
 
 #who-we-are h2 {
   color: #302f2d;
+  font-size: calc(3.5rem + 3vh);
 }
 
 .single-person {
