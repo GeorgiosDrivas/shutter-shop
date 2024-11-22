@@ -10,7 +10,7 @@ export default function SingleAccordion({
   const [clicked, setClicked] = useState(false);
 
   return (
-    <div className={`singe-accordion-wrap ${clicked ? "clicked" : ""}`}>
+    <div className={`single-accordion-wrap ${clicked ? "clicked" : ""}`}>
       <div
         className="single-accordion d-flex justify-content-between align-items-center"
         onClick={() => setClicked((prv) => !prv)}
